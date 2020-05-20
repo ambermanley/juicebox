@@ -1,18 +1,30 @@
 {
   "name": "juicebox",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "seed:dev": "nodemon ./db/seed.js"
+    "seed:dev": "nodemon ./db/seed.js",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "pg": "^8.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambermanley/juicebox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ambermanley/juicebox/issues"
+  },
+  "homepage": "https://github.com/ambermanley/juicebox#readme",
+  "description": ""
 }
